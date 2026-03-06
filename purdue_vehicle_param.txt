@@ -1,0 +1,14 @@
+Wheel radius: 9.5
+Weight: 275 pounds
+ 
+Width:40'5 inch 
+Length: 61 inch
+front/rear distance: 42 inch
+Max steering angle: 75 degree
+Safty margin: 13ins
+
+Max speed: 14 miles/hour
+Max longitude acceleration: 0.45g
+Max Lateral a: 1.5g
+Max Braking a: 0.39g
+
