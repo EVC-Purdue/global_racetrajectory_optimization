@@ -111,12 +111,7 @@ with open(requirements_path, 'r') as fh:
         line = fh.readline()
 
 # check dependencies
-try:
-    pkg_resources.require(dependencies)
-except Exceptions as e:
-    print("[WARN] Dependency version check skipped:", e)
-
-
+pkg_resources.require(dependencies)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # INITIALIZATION OF PATHS ----------------------------------------------------------------------------------------------
